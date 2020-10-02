@@ -1,0 +1,35 @@
+{
+  "name": "dolos",
+  "version": "1.0.0",
+  "description": "A handy data mocking api to generate data in given schema",
+  "main": "src/app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ACM-VIT/dolos.git"
+  },
+  "keywords": [
+    "acmvit",
+    "data",
+    "mocking",
+    "api"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ACM-VIT/dolos/issues"
+  },
+  "homepage": "https://github.com/ACM-VIT/dolos#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
