@@ -24,4 +24,3 @@ There are numerous packages on [npm ](https://www.npmjs.com/) available for it, 
 
 ## I can't see any issue for X, can I do that ?
 yes ! we encourage you to open issues if you think there should be a new feature (called feature-request) or you find a bug. you can [open a new issue here](https://github.com/ACM-VIT/dolos/issues/new)
-
