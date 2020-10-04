@@ -11,6 +11,14 @@ router.get("/", (req, res, next) => {
   });
 });
 
+router.post("/generate", (req, res, next) => {
+  res.json({
+    error: false,
+    data: req.body,
+    version: "1.0",
+  });
+});
+
 /** display api description */
 router.get("/info", (req, res, next) => {
   res.send(APIDescription());
