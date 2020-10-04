@@ -4,6 +4,7 @@ const dotenv = require("dotenv");
 
 /** loading modules */
 const apiRoutes = require("./routes/api.routes");
+const dataBase = require("./routes/conn_DB");
 
 /** load configs from .env file */
 dotenv.config();
@@ -20,6 +21,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/v1", apiRoutes);
+
 
 /** listen for requests on port 3000 */
 app.listen(port, () =>
