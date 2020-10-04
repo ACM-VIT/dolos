@@ -1,12 +1,12 @@
-const mongoose = require('mongoose');
-var url = process.env.MONGODB_URI 
+var mysql = require('mysql');
 
+var con = mysql.createConnection({
+  host: "localhost",
+  user: "yourusername",
+  password: "yourpassword"
+});
 
-mongoose.connect(url, {
-    useNewUrlParser:true,
-    useCreateIndex: true,
-    autoIndex: false,
-    useUnifiedTopology: true 
-})
-.then(() => console.log('MongoDB Connected'))
-.catch(err => console.log(err))
+con.connect(function(err) {
+  if (err) throw err;
+  console.log("Connected!");
+});
