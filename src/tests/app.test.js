@@ -18,4 +18,4 @@ describe('Ensure that server boots', () => {
     .get('/')
     .expect(200, done);
   });
-})
+});
