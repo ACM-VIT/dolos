@@ -14,6 +14,7 @@ A handy data mocking api to generate data in  given schema
   </a>
     <img alt="license" src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" />
 </p>
+<img alt="GitHub Hacktoberfest combined status" src="https://img.shields.io/github/hacktoberfest/2020/ACM-VIT/dolos">
 
 ---
 
