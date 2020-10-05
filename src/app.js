@@ -22,6 +22,7 @@ app.get("/", (req, res) => {
 app.use("/api/v1", apiRoutes);
 
 /** listen for requests on port 3000 */
-app.listen(port, () =>
-  console.log(`Started Server on http://localhost:${port}`)
-);
+app.listen(port, () => {
+  /* eslint-disable */
+  console.log(`Started Server on http://localhost:${port}`);
+});
