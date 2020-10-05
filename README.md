@@ -16,9 +16,7 @@ A handy data mocking api to generate data in  given schema
 </p>
 <img alt="GitHub Hacktoberfest combined status" src="https://img.shields.io/github/hacktoberfest/2020/ACM-VIT/dolos?style=for-the-badge">
 
-![GitHub last commit](https://img.shields.io/github/last-commit/ACM-VIT/dolos?style=for-the-badge)
-
-![GitHub repo size](https://img.shields.io/github/repo-size/ACM-VIT/dolos?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/ACM-VIT/dolos?style=for-the-badge) ![GitHub repo size](https://img.shields.io/github/repo-size/ACM-VIT/dolos?style=for-the-badge)
 
 ---
 
