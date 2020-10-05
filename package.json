@@ -7,8 +7,9 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "jest",
-    "start:dev": "nodemon src/app.js"
+    "lint": "pretty-quick --staged && lint-staged",
+    "start:dev": "nodemon src/app.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -31,8 +32,17 @@
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.3.0",
     "jest": "^26.4.2",
+    "lint-staged": "^10.4.0",
     "nodemon": "^2.0.4",
+    "prettier": "^2.1.2",
+    "pretty-quick": "^3.0.2",
     "supertest": "^5.0.0"
   },
   "jest": {
@@ -40,5 +50,13 @@
     "coveragePathIgnorePatterns": [
       "/node_modules/"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,js}": "eslint --cache --fix"
   }
 }
