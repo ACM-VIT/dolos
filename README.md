@@ -13,10 +13,10 @@ A handy data mocking api to generate data in  given schema
     <img alt="made-by-acm" src="https://img.shields.io/badge/MADE%20BY-ACM%20VIT-blue?style=for-the-badge" />
   </a>
     <img alt="license" src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" />
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ACM-VIT/dolos?style=for-the-badge">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/ACM-VIT/dolos?style=for-the-badge">
 </p>
 <img alt="GitHub Hacktoberfest combined status" src="https://img.shields.io/github/hacktoberfest/2020/ACM-VIT/dolos?style=for-the-badge">
-
-![GitHub last commit](https://img.shields.io/github/last-commit/ACM-VIT/dolos?style=for-the-badge)  ![GitHub repo size](https://img.shields.io/github/repo-size/ACM-VIT/dolos?style=for-the-badge)
 
 ---
 
