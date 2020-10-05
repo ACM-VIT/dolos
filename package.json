@@ -23,8 +23,7 @@
   "lint-staged": {
     "**/*.{js,jsx,css}": [
       "npm run format",
-      "npm run test",
-      "git add"
+      "npm run test"
     ]
   },
   "repository": {
@@ -46,7 +45,7 @@
     "express": "^4.17.1",
     "dotenv": "^8.2.0"
   },
-  "devDependencies": {    
+  "devDependencies": {
     "eslint": "^7.10.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.12.0",
