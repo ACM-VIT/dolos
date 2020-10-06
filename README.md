@@ -50,4 +50,4 @@ npm run server
 
 ## Hackers !
 
-[![GitHub forks](https://contributors-img.web.app/image?repo=ACM-VIT/dolos)](https://github.com/ACM-VIT/dolos/graphs/contributors)
+[![Collaborators](https://contributors-img.web.app/image?repo=ACM-VIT/dolos)](https://github.com/ACM-VIT/dolos/graphs/contributors)
