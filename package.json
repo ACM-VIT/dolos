@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "jest",
-    "start:dev": "nodemon src/app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon -L --watch . src/app.js"
   },
   "repository": {
     "type": "git",

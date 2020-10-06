@@ -52,6 +52,33 @@ To take part in the development of this project, refer the github projects board
 * Wait for your request to be accepted. 
 
 ---
+# Docker
+### 🐳 Run and develop through Docker (Optional)
+
+The docker-compose.yml file contain:
+- **phpMyAdmin**: *For database manager.**
+- **MySQL**: *The database itself*
+- **Dolos**: *The Dolos application*
+- **Portainer**: *To monitoring your container services, such as logs, restart and more.*
+
+For development, you can run the Dolos using Docker Compose by following this steps below:
+- Adjust `.env` with some dependencies variables.
+- Run `docker-composer up -d`  for build all containers and prepare them to the first run.
+- Run `docker-composer up ` and that's it, let's code!
+- If you want to stop, run `docker-compose down`
+
+The IP address to use:
+```sh
+- phpMyAdmin: 0.0.0.0:8081
+- Dolos: 0.0.0.0:3000
+- Portainer: 0.0.0.0:9000
+```
+
+- To connect on **Portainer**, do the follow steps:
+    1. You'll need to create a password for local admin account.
+    2. Choose the option: "**Docker** *manage the local Docker environment*".
+    3. Done, you're now able to manage the containers.
+  
 ## Guidelines for Pull Request
 
 <!-- general guidelines here -->
