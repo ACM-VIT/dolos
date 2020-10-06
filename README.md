@@ -17,6 +17,10 @@ A handy data mocking api to generate data in  given schema
 </p>
 <img alt="GitHub Hacktoberfest combined status" src="https://img.shields.io/github/hacktoberfest/2020/ACM-VIT/dolos?style=for-the-badge">
 
+[![GitHub forks](https://img.shields.io/github/forks/ACM-VIT/dolos?style=for-the-badge)](https://github.com/ACM-VIT/dolos/network)
+
+[![GitHub stars](https://img.shields.io/github/stars/ACM-VIT/dolos?style=for-the-badge)](https://github.com/ACM-VIT/dolos/stargazers)
+
 ---
 
 Ever wanted to get random data for that app you were building, say no more. Dolos, the god of deception and trickery is here for you. 
