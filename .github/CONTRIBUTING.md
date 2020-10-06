@@ -4,7 +4,7 @@
 
 Seeing the overwhelming response from our community, we are **not individually assigning issues**, so please do not ask if you can work on it or not. Directly send a pull request following the guidelines mentioned in next heading.
 
-Also note that some issues require a very minor fix, these **will not accept** a dedicated PR for them as these might qualify as **_spam_** by Hacktoberfest. If you are interested in fixing those, club it with any other issue and send a single PR for both.
+Also note that some issues require a very minor fix (labelled as `minor`), these **will not accept** a dedicated PR for them as these might qualify as **_spam_** by Hacktoberfest. If you are interested in fixing those, club it with any other issue and send a single PR for both.
 
 ## Pull Requests
 
@@ -22,3 +22,4 @@ As this repository is to promote open source under the awesome [Hacktoberfest](h
 - `ready-to-merge` : your PR is fit to be merged into the repository, will be merged shortly.
 - `code-ready` : your PR has passed the review phase as code is functional / docs are proper, but your PR needs to sync with master branch, or fix merge conflicts etc.
 - `wontfix` : the PR that you have sent is does a very minor change that can qualify as **_spam_** by hacktoberfest, therefore these changes should be done along-with some other issue.
+- `minor` : issue is too small to have a separate PR. Please club this will some other issue.
