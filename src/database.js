@@ -9,11 +9,11 @@ const config = process.env.NODE_ENV == "docker" ?
     user: process.env.DOCKER_DB_USER,
     password: process.env.DOCKER_DB_PASSWORD
   } : {
-    database: process.env.DB_DATABASE,
-    port: process.env.DB_PORT,
-    host: process.env.DB_HOST,
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD
+    database: process.env.DB_DATABASE || "db",
+    port: process.env.DB_PORT || "3306",
+    host: process.env.DB_HOST || "localhost",
+    user: process.env.DB_USER || "user",
+    password: process.env.DB_PASSWORD || "pass"
   }
 
 const connection = new mysql.createConnection(config)
