@@ -14,9 +14,14 @@ A handy data mocking api to generate data in  given schema
   </a>
     <img alt="license" src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" />
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ACM-VIT/dolos?style=for-the-badge">
-    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/ACM-VIT/dolos?style=for-the-badge">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/ACM-VIT/dolos?style=for-the-badge"/>
+    <img alt="Github Actions" src="https://github.com/ACM-VIT/dolos/workflows/Node.js%20CI/badge.svg" />
 </p>
 <img alt="GitHub Hacktoberfest combined status" src="https://img.shields.io/github/hacktoberfest/2020/ACM-VIT/dolos?style=for-the-badge">
+
+[![GitHub forks](https://img.shields.io/github/forks/ACM-VIT/dolos?style=for-the-badge)](https://github.com/ACM-VIT/dolos/network)
+
+[![GitHub stars](https://img.shields.io/github/stars/ACM-VIT/dolos?style=for-the-badge)](https://github.com/ACM-VIT/dolos/stargazers)
 
 ---
 
