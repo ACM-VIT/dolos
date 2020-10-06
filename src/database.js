@@ -3,14 +3,9 @@ var config = require('dotenv').config();
 
 var connectionString = {
   host: "localhost",
-  user: "root",
-  password: "root"
+  user: config.parsed.DB_USER || "yourusername",
+  password: config.parsed.DB_PASS || "yourpassword"
 };
-
-if (config.parsed) {
-  connectionString.user = config.parsed.DB_USER;
-  connectionString.password = config.parsed.DB_PASS;
-}
 
 var con = mysql.createConnection(connectionString);
 
