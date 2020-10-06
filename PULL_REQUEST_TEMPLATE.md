@@ -1,32 +1,36 @@
-# Submitting a Pull Request
+<!--- Provide a general summary of your changes in the Title above -->
 
-* Fork the repository by clicking the fork button on top right corner of the page
-* Clone the target repository. To clone, click on the clone button and copy the https address. Then run
+## Description
+<!--- Describe your changes in detail -->
 
-`git clone [HTTPS-ADDRESS]`
+## Related Issue
+<!--- This project only accepts pull requests related to open issues -->
+<!--- If suggesting a new feature or change, please discuss it in an issue first -->
+<!--- If fixing a bug, there should be an issue describing it with steps to reproduce -->
+<!--- Please link to the issue here: -->
 
-* Go to the cloned directory by running
+## Motivation and Context
+<!--- Why is this change required? What problem does it solve? -->
 
-`cd [NAME-OF-REPO]`
+## How Has This Been Tested?
+<!--- Please describe in detail how you tested your changes. -->
+<!--- Include details of your testing environment, and the tests you ran to -->
+<!--- see how your change affects other areas of the code, etc. -->
 
-* Create a new branch. Use
+## Screenshots (if appropriate):
 
-`git checkout -b [YOUR-BRANCH-NAME]`
+## Types of changes
+<!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
+- [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] New feature (non-breaking change which adds functionality)
+- [ ] Breaking change (fix or feature that would cause existing functionality to change)
 
-* Make your changes to the code. Add changes to your branch by using
-
-`git add .`
-
-* Commit the chanes by executing
-
-`git commit -m "your msg"`
-
-* Push to remote. To do this, run
-
-`git push origin [YOUR-BRANCH-NAME]`
-
-* Create a pull request. Go to the target repository and click on the "Compare & pull request" button. **Make sure your PR description mentions which issues you're solving.**
-
-![Pull request example](https://drive.google.com/u/1/uc?id=1f9JKAR-kRvCRGxIs_SAvegaYDPx53T9G&export=download)
-
-Wait for your request to be accepted.
+## Checklist:
+<!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
+<!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
+- [ ] My code follows the code style of this project.
+- [ ] My change requires a change to the documentation.
+- [ ] I have updated the documentation accordingly.
+- [ ] I have read the **CONTRIBUTING** document.
+- [ ] I have added tests to cover my changes.
+- [ ] All new and existing tests passed.
