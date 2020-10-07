@@ -13,7 +13,7 @@ A handy data mocking api to generate data in  given schema
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://en.wikipedia.org/wiki/MIT_License)
 [![GitHub forks](https://img.shields.io/github/forks/ACM-VIT/dolos?style=for-the-badge)](https://github.com/ACM-VIT/dolos/network)
 [![GitHub stars](https://img.shields.io/github/stars/ACM-VIT/dolos?style=for-the-badge)](https://github.com/ACM-VIT/dolos/stargazers)
-![Github Actions](https://github.com/ACM-VIT/dolos/workflows/Node.js%20CI/badge.svg)
+![Github Actions](https://img.shields.io/github/workflow/status/ACM-VIT/dolos/Node.js%20CI?style=for-the-badge)
 ![GitHub Hacktoberfest combined status](https://img.shields.io/github/hacktoberfest/2020/ACM-VIT/dolos?style=for-the-badge)
 
 </div>
