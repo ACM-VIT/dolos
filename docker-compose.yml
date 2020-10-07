@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+    mysql:
+        image: mysql:8.0
+        volumes:
+            - mysql:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: dolos
+            MYSQL_DATABASE: dolos
+            MYSQL_USER: dolos
+            MYSQL_PASSWORD: dolos
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile.dev
+        volumes:
+            - ./:/usr/src/app
+        environment: 
+            PORT: "3000"
+            MYSQL_HOST: mysql
+            MYSQL_PASSWORD: dolos
+            MYSQL_USER: dolos
+            MYSQL_DB: dolos
+        ports:
+            - 3000:3000
+        depends_on: 
+            - mysql
+volumes:
+    mysql:
