@@ -10,6 +10,8 @@ A handy data mocking api to generate data in  given schema
 <div align="center">
 
 [![made-by-acm](https://img.shields.io/badge/MADE%20BY-ACM%20VIT-blue?style=for-the-badge)](https://acmvit.in/)
+![GitHub last commit](https://img.shields.io/github/last-commit/ACM-VIT/dolos?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/ACM-VIT/dolos?style=for-the-badge)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://en.wikipedia.org/wiki/MIT_License)
 [![GitHub forks](https://img.shields.io/github/forks/ACM-VIT/dolos?style=for-the-badge)](https://github.com/ACM-VIT/dolos/network)
 [![GitHub stars](https://img.shields.io/github/stars/ACM-VIT/dolos?style=for-the-badge)](https://github.com/ACM-VIT/dolos/stargazers)
