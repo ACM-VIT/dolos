@@ -1,26 +1,27 @@
-const express = require("express");
+const express = require('express');
+
 const router = express.Router();
-const { APIDescription } = require("./../api/TextResponses");
+const { APIDescription } = require('../api/TextResponses');
 
 /** defining routes for api module */
-router.get("/", (req, res, next) => {
+router.get('/', (req, res) => {
   res.json({
     error: false,
-    version: "1.0",
-    message: "Server up and running",
+    version: '1.0',
+    message: 'Server up and running',
   });
 });
 
-router.post("/generate", (req, res, next) => {
+router.post('/generate', (req, res) => {
   res.json({
     error: false,
     data: req.body,
-    version: "1.0",
+    version: '1.0',
   });
 });
 
 /** display api description */
-router.get("/info", (req, res, next) => {
+router.get('/info', (req, res) => {
   res.send(APIDescription());
 });
 
