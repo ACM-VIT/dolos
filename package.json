@@ -21,7 +21,7 @@
     }
   },
   "lint-staged": {
-    "**/*.{js}": [
+    "./src/*.{js}": [
       "npm run format",
       "npm run test",
       "npm run lint"
