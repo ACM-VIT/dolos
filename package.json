@@ -9,7 +9,7 @@
   "scripts": {
     "test": "jest",
     "start:dev": "nodemon src/app.js",
-    "prettier": "prettier \"**/*.{js,json}\"",
+    "prettier": "prettier \"src/**/*.{js,json}\"",
     "format": "npm run prettier -- --write",
     "lint": "eslint src",
     "lint:fix": "npm run lint -- --fix",
@@ -21,11 +21,10 @@
     }
   },
   "lint-staged": {
-    "./src/*.{js}": [
+    "**/*.{js}": [
       "npm run format",
       "npm run test",
-      "npm run lint",
-      "git add"
+      "npm run lint"
     ]
   },
   "repository": {
