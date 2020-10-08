@@ -13,6 +13,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: "module",
   },
+  eslintIgnore: ["*.test.js"],
   rules: {
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
