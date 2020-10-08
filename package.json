@@ -23,7 +23,8 @@
   "lint-staged": {
     "**/*.{js}": [
       "npm run format",
-      "npm run test"
+      "npm run test",
+      "npm run lint"
     ]
   },
   "repository": {
