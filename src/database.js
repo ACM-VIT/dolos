@@ -1,12 +1,12 @@
-var mysql = require('mysql');
+const mysql = require("mysql");
 
-var con = mysql.createConnection({
+const con = mysql.createConnection({
   host: "localhost",
   user: "yourusername",
-  password: "yourpassword"
+  password: "yourpassword",
 });
 
-con.connect(function(err) {
+con.connect(function (err) {
   if (err) throw err;
   console.log("Connected!");
 });
