@@ -25,8 +25,9 @@ app.get("/", (req, res) => {
 app.use("/api/v1", apiRoutes);
 
 /** listen for requests on port 3000 */
-const server = app.listen(port, () =>
-  console.log(`Started Server on http://localhost:${port}`)
-);
+
+const server = app.listen(port, () => {
+  console.log(`Started Server on http://localhost:${port}`);
+});
 
 module.exports = server;
