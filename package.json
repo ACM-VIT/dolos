@@ -8,8 +8,22 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "node src/app.js",
-    "dev": "nodemon -L --watch . src/app.js"
+    "start:dev": "nodemon src/app.js",
+    "prettier": "prettier \"src/**/*.{js,json}\"",
+    "format": "npm run prettier -- --write",
+    "lint": "eslint src",
+    "lint:fix": "npm run lint -- --fix",
+    "validate": "npm run prettier -- --list-different && npm run lint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,ts}": [
+      "npm run format"
+    ]
   },
   "repository": {
     "type": "git",
@@ -32,8 +46,17 @@
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.3.0",
     "jest": "^26.4.2",
+    "lint-staged": "^10.4.0",
     "nodemon": "^2.0.4",
+    "prettier": "^2.1.2",
     "supertest": "^5.0.0"
   },
   "jest": {
