@@ -17,10 +17,9 @@ services:
             - ./:/usr/src/app
         environment: 
             PORT: "3000"
-            MYSQL_HOST: mysql
-            MYSQL_PASSWORD: dolos
-            MYSQL_USER: dolos
-            MYSQL_DB: dolos
+            DB_HOST: mysql
+            DB_PASS: dolos
+            DB_USER: dolos
         ports:
             - 3000:3000
         depends_on: 
