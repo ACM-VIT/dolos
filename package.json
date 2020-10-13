@@ -7,9 +7,13 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "jest",
+    "format": "npm run prettier -- --write",
+    "lint:fix": "npm run lint -- --fix",
+    "lint": "eslint src",
+    "prettier": "prettier \"src/**/*.{js,json}\"",
     "start:dev": "nodemon src/app.js",
-    "lint": "pretty-quick --staged && lint-staged"
+    "test": "jest",
+    "validate": "npm run prettier -- --list-different && npm run lint"
   },
   "repository": {
     "type": "git",
@@ -33,11 +37,13 @@
     "pretty-quick": "^3.0.2"
   },
   "devDependencies": {
-    "eslint": "^7.10.0",
+    "dotenv": "^8.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "eslint": "^7.10.0",
     "husky": "^4.3.0",
     "install": "^0.13.0",
     "jest": "^26.4.2",
@@ -55,10 +61,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "*.{ts,js}": "eslint --cache --fix"
+    "**/*.{js,ts}": [
+      "npm run format"
+    ]
   }
 }
