@@ -20,6 +20,11 @@ jobs:
         node-version: [14.x]
     steps:
       - uses: actions/checkout@v2
+      - uses: mirromutth/mysql-action@v1.1
+        with:
+          mysql version: "5.7"
+          mysql user: "user"
+          mysql password: "pass"
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:

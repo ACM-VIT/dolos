@@ -9,7 +9,8 @@ const apiRoutes = require("./routes/api.routes");
 dotenv.config();
 
 /** requiring database script */
-require("./database");
+// eslint-disable-next-line no-unused-vars
+const database = require("./database");
 
 /** initialize express server */
 const app = express();

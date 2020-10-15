@@ -1,12 +1,14 @@
 const mysql = require("mysql");
 
-const con = mysql.createConnection({
+const connection = mysql.createConnection({
   host: process.env.DB_HOST || "localhost",
-  user: process.env.DB_USER || "yourUser",
-  password: process.env.DB_PASS || "yourPass",
+  user: process.env.DB_USER || "user",
+  password: process.env.DB_PASS || "pass",
 });
 
 /** causes the resource leak in jest */
-con.connect((err) => {
+connection.connect((err) => {
   if (err) throw err;
 });
+
+module.exports = connection;
