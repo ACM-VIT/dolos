@@ -7,6 +7,10 @@
     "doc": "docs"
   },
   "scripts": {
+    "apidocs": "apidoc -i src/api/ -o docs/",
+    "test": "jest",
+    "start:dev": "nodemon src/app.js",
+    "prettier": "prettier \"src/**/*.{js,json}\"",
     "format": "npm run prettier -- --write",
     "lint:fix": "npm run lint -- --fix",
     "lint": "eslint src",

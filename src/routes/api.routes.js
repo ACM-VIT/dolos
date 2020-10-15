@@ -20,8 +20,15 @@ router.post('/generate', (req, res) => {
   });
 });
 
-/** display api description */
-router.get('/info', (req, res) => {
+/**
+ * @api {get} /info/ Request Short Description of the API
+ * @apiName GetInfo
+ * @apiGroup Info
+ *
+ * @apiSuccess {String} short description of api.
+ *
+ */
+router.get("/info", (req, res, next) => {
   res.send(APIDescription());
 });
 
