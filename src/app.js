@@ -13,7 +13,6 @@ require("./database");
 
 /** initialize express server */
 const app = express();
-const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
@@ -24,10 +23,4 @@ app.get("/", (req, res) => {
 
 app.use("/api/v1", apiRoutes);
 
-/** listen for requests on port 3000 */
-
-const server = app.listen(port, () => {
-  console.log(`Started Server on http://localhost:${port}`);
-});
-
-module.exports = server;
+module.exports = app;
