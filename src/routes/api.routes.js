@@ -1,6 +1,9 @@
 const express = require("express");
 
 const router = express.Router();
+
+// load api components
+const Parser = require("./../api/Parser");
 const { APIDescription } = require("./../api/TextResponses");
 
 /** defining routes for api module */
@@ -12,12 +15,11 @@ router.get("/", (req, res, next) => {
   });
 });
 
-router.post("/generate", (req, res, next) => {
-  res.json({
-    error: false,
-    data: req.body,
-    version: "1.0",
-  });
+// generate data using json sent in request body
+router.post("/generate", async (req, res) => {
+  const parser = new Parser(req.body);
+  const response = await parser.generateData();
+  res.json(response);
 });
 
 /**
