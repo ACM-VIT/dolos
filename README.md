@@ -1,7 +1,7 @@
-<p align="center"><img src="Logo_png/Dolos_Logo_Transparent_BlackLines.png" width="150px" height="150px"></p>
 
 ![hacktoberfest-acmvit](https://user-images.githubusercontent.com/59484953/94790665-3a4d9a80-03f4-11eb-98da-3614b3eb6ebc.png)
 
+<p align="center"><img src="Logo_png/Dolos_Logo_Transparent_BlackLines.png" width="150px" height="150px"></p>
 <h1 align="center"> Dolos </h1>
 
 <p align="center"> 
