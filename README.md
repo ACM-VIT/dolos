@@ -41,7 +41,7 @@ To setup project locally, fork the repository.
 npm install
 
 # run the server
-npm run server
+npm run start:dev
 ```
 
 ---
